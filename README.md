@@ -8,7 +8,7 @@ pip install -r requirments.txt
 **Dependencies**:
    - Python 3.7
    - PyTorch + Torchvision
-Pytorch Lightning (for data preparation)
+   Pytorch Lightning (for data preparation)
 Tensorflow
 Scikit-learn + Scikit-image
 PIL
