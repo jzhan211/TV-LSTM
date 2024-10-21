@@ -20,5 +20,8 @@ Try `pip install -r requirments.txt` to install required packages.
 
      `python3 ./test_lateAMDin2_tvlstm_4v.py --image_folder ./test_data/Available_Fundus/ --history_visit_num 4 --input_dim 1077 --geno_file ./test_data/test_subject_52SNPs.txt --weights_file ./TVLSTM_g_4v_weights.pth`
 
+## Trained Checkpoint Models
+   - [TVLSTM_g_4v_weights.pth](./TVLSTM_g_4v_weights.pth) : TV-LSTM with 4 history fundus and genotypes
+
 ## Contact 
 If you have any questions, please feel free to contact us through email jipeng.zhang@pitt.edu).
