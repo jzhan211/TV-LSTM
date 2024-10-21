@@ -4,10 +4,14 @@ To install required packages:
 pip install -r requirments.txt
 
 
-### How to Use This Template
-1. **Fill in Project Information**:
-   - Replace "Project Name" with your actual project name.
-   - Add a brief project description.
+## Installation
+**Dependencies**:
+   - Python 3.7
+   - PyTorch + Torchvision
+Pytorch Lightning (for data preparation)
+Tensorflow
+Scikit-learn + Scikit-image
+PIL
 
 2. **Add Prerequisites**:
    - Add details about Python version or other requirements.
