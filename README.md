@@ -14,6 +14,7 @@ This repository contains the PyTorch implementation for:
    - Tensorflow
    - Scikit-learn + Scikit-image
    - PIL
+     
 2.Download color fundus image foundation model `RETFound_cfp_weights.pth` from https://github.com/rmaphoh/RETFound_MAE
    
 ## Code Overview
