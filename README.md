@@ -16,7 +16,8 @@ Try `pip install -r requirments.txt` to install required packages.
    - PIL
 
 ## Code Overview
-   - [test_lateAMDin2_tvlstm_4v.py](./test_lateAMDin2_tvlstm_4v.py): for prediction of late AMD in two years using 4 history fundus images and genotypes
+   - [test_lateAMDin2_tvlstm_4v.py](./test_lateAMDin2_tvlstm_4v.py) : for prediction of late AMD in two years using 4 history fundus images and genotypes
+
      `python3 ./test_lateAMDin2_tvlstm_4v.py --image_folder ./test_data/Available_Fundus/ --history_visit_num 4 --input_dim 1077 --geno_file ./test_data/test_subject_52SNPs.txt --weights_file ./TVLSTM_g_4v_weights.pth`
 
 ## Contact 
