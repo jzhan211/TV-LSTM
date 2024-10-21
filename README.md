@@ -1,31 +1,14 @@
 # TV-LSTM: Multimodal Deep Learning for Predicting the Progression of Late Age-related Macular Degeneration Using Longitudinal Fundus Images and Genetic Data
 
-To install required packages:
-pip install -r requirments.txt
-
+**Abstract**: Age-related macular degeneration (AMD) is the leading cause of blindness in developed countries. Predicting its progression is crucial for preventing late-stage AMD, as it is an irreversible retinal disease. Both genetic factors and retinal images are instrumental in diagnosing and predicting AMD progression. Previous studies have explored automated diagnosis using single fundus images and genetic variants, but they often fail to utilize the valuable longitudinal data from multiple visits. Longitudinal retinal images offer a dynamic view of disease progression, yet standard Long Short-Term Memory (LSTM) models assume consistent time intervals between visits, limiting their effectiveness in real-world settings. To address this limitation, we propose Time-Varied Long Short-Term Memory (TV-LSTM), which accommodates irregular time intervals in longitudinal data. Our approach integrates longitudinal fundus images and AMD-associated genetic variants to predict late AMD progression. TV-LSTM achieved an AUC-ROC of 0.9479 and an AUC-PR of 0.8591 for predicting late AMD within two years, using data from four visits with varying time intervals. 
 
 ## Installation
+Try `pip install -r requirments.txt` to install required packages.
 **Dependencies**:
    - Python 3.7
    - PyTorch + Torchvision
-   Pytorch Lightning (for data preparation)
-Tensorflow
-Scikit-learn + Scikit-image
-PIL
+   - Pytorch Lightning (for data preparation)
+   - Tensorflow
+   - Scikit-learn + Scikit-image
+   - PIL
 
-2. **Add Prerequisites**:
-   - Add details about Python version or other requirements.
-
-3. **Add Virtual Environment Instructions**:
-   - This helps users keep dependencies organized and prevents conflicts.
-
-4. **Specify Package Installation**:
-   - The command `pip install -r requirements.txt` should be used to install the dependencies listed in the `requirements.txt` file.
-
-5. **Include Usage Instructions**:
-   - Describe how to run the script once installation is complete.
-
-6. **Specify Licensing**:
-   - Add any license details if applicable.
-
-This template will make it easy for others to understand how to set up and use your project, ensuring a smoother experience for users and contributors.
